@@ -57,5 +57,23 @@ linearization. ](https://scholar.google.com/scholar_url?url=https://proceedings.
 ## Performance Certificates
 
 ### Marginal Likelihood
-
+- [Scalable marginal
+likelihood estimation for model selection in deep learning](https://arxiv.org/abs/2104.04975)
+- [Bayesian model selection,
+the marginal likelihood, and generalization.](https://arxiv.org/abs/2202.11678)
+- [A bayesian perspective on training
+speed and model selection.](https://arxiv.org/abs/2010.14499)
+- [Speedy performance
+estimation for neural architecture search.](https://arxiv.org/abs/2006.04492)
 ### PAC-Bayes
+- [Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data.](https://arxiv.org/abs/1703.11008)
+- [On the role of data in PAC-Bayes bounds.](https://arxiv.org/abs/2006.10929)
+- [PAC-Bayesian theory meets Bayesian inference.](https://arxiv.org/abs/1605.08636)
+- [PAC-Bayes Compression Bounds So Tight That They Can Explain Generalization.](https://arxiv.org/abs/2211.13609)
+- [Non-Vacuous Generalization Bounds at the ImageNet Scale: A PAC-Bayesian Compression Approach.](https://arxiv.org/abs/1804.05862)
+
+## Benchmarking
+
+### Datasets
+
+### Metrics
