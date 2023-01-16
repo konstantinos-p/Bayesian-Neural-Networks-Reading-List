@@ -22,7 +22,8 @@ in Bayesian Deep Neural Networks. HMC is considered the gold standard in approxi
 This is a Frequentist alternative to Bayesian Neural Networks. It is one of the most common baselines for Bayesian Neural Networks, and frequently outperforms them.
 
 ## Approximate Inference
-### Variational Inference
+### Variational Inference 
+++ Computationally efficient --Explores a single mode of the loss
 
 - [Keeping the neural networks simple by minimizing the
 description length of the weights.](https://scholar.google.com/scholar_url?url=https://dl.acm.org/doi/pdf/10.1145/168304.168306&hl=en&sa=T&oi=gsb-ggp&ct=res&cd=0&d=10176669309393884854&ei=5h_FY9ffEYaymgHM6YaoBw&scisig=AAGBfm26p-N1UN5egv0YIQzRamLrWqemLw)
@@ -40,6 +41,8 @@ Gaussian posteriors](https://scholar.google.com/scholar_url?url=https://proceedi
 covariance approximations for bayesian deep learning with natural gradient.](https://scholar.google.com/scholar_url?url=https://proceedings.neurips.cc/paper/2018/hash/d3157f2f0212a80a5d042c127522a2d5-Abstract.html&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=16145055537497825367&ei=MSLFY5r2OYbcmwGmsojQCQ&scisig=AAGBfm0J9CD0VPhaaxHcXvMeZ9OEBGJ-MA)
 - [Structured second-order methods via natural-gradient descent.](https://arxiv.org/pdf/2107.10884)
 ### Laplace approximation
+++ Computationally efficient --Explores a single mode of the loss
+
 - [A practical Bayesian framework for backpropagation networks.](https://scholar.google.com/scholar_url?url=https://direct.mit.edu/neco/article/4/3/448/5654&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=4883107376501501717&ei=FyPFY5bkLJOSy9YPxYCN6AI&scisig=AAGBfm2uQ4xCZIUjhFInqshLOyN4qk6WcQ)
 - [A scalable Laplace approximation for neural networks.](https://scholar.google.com/scholar_url?url=https://discovery.ucl.ac.uk/id/eprint/10080902/&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=3068639073703398000&ei=OSPFY_bIDuOSy9YP2ZKSqA8&scisig=AAGBfm2rxtCiHqTNTtypVHoU1PFVqUK5Tg)
 - [Laplace Redux -- Effortless Bayesian Deep Learning](https://arxiv.org/abs/2106.14806)
@@ -48,6 +51,8 @@ linearization. ](https://scholar.google.com/scholar_url?url=https://proceedings.
 - [Adapting the linearised laplace model evidence for modern deep learning. ](https://scholar.google.com/scholar_url?url=https://proceedings.mlr.press/v162/antoran22a.html&hl=en&sa=T&oi=gsb&ct=res&cd=0&d=3588379385157935270&ei=pCPFY7T8M6PGsQKV5YqwCg&scisig=AAGBfm2I5Sto1dfSHydrDzjtQxf4_eorNw)
 - [ Bayesian Deep Learning via Subnetwork Inference ](https://arxiv.org/pdf/2010.14689)
 ### Sampling methods
+++ Explore multiple modes --Computationally expensive
+
 - [What Are Bayesian Neural Network Posteriors Really Like?](http://proceedings.mlr.press/v139/izmailov21a/izmailov21a.pdf)
 - [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj0jMP75sv8AhXWT6QEHeaLBxkQFnoECCkQAQ&url=https%3A%2F%2Fproceedings.neurips.cc%2Fpaper%2F2017%2Ffile%2F9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf&usg=AOvVaw1zcxDvvpYRZlrPzKo7zzZO)
 - [Preconditioned Stochastic Gradient Langevin Dynamics for Deep Neural Networks.](https://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/download/11835/11805)
@@ -57,6 +62,8 @@ linearization. ](https://scholar.google.com/scholar_url?url=https://proceedings.
 ## Performance Certificates
 
 ### Marginal Likelihood
+The marginal likelihood can be used for model selection.
+
 - [Scalable marginal
 likelihood estimation for model selection in deep learning](https://arxiv.org/abs/2104.04975)
 - [Bayesian model selection,
@@ -66,6 +73,8 @@ speed and model selection.](https://arxiv.org/abs/2010.14499)
 - [Speedy performance
 estimation for neural architecture search.](https://arxiv.org/abs/2006.04492)
 ### PAC-Bayes
+PAC-Bayes bounds give high-probability guarantees on out-of-sample performance.
+
 - [Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data.](https://arxiv.org/abs/1703.11008)
 - [On the role of data in PAC-Bayes bounds.](https://arxiv.org/abs/2006.10929)
 - [PAC-Bayesian theory meets Bayesian inference.](https://arxiv.org/abs/1605.08636)
