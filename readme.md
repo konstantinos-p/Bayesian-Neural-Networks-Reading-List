@@ -75,5 +75,16 @@ estimation for neural architecture search.](https://arxiv.org/abs/2006.04492)
 ## Benchmarking
 
 ### Datasets
-
+- [Benchmarking bayesian deep learning on diabetic retinopathy detection tasks.](https://arxiv.org/abs/2211.12717)
+- [Can you trust your model's uncertainty? Evaluating predictive uncertainty under dataset shift.](https://arxiv.org/abs/1906.02530)
+- [Uncertainty Baselines: Benchmarks for uncertainty & robustness in deep learning.](https://arxiv.org/abs/2106.04015)
 ### Metrics
+- [Expected Calibration Error (ECE).](https://www.jstor.org/stable/2987588)
+- [Thresholded Adaptive Calibration Error (TACE).](https://arxiv.org/abs/1904.01685)
+- [Pitfalls of in-domain uncertainty
+estimation and ensembling in deep learning. ](https://arxiv.org/abs/2002.06470)
+
+## Review papers
+- [Hands-on Bayesian Neural Networks--a Tutorial for Deep Learning Users.](https://arxiv.org/abs/2007.06823)
+- [A review of uncertainty quantification in deep learning: Techniques, applications and challenges.](https://arxiv.org/abs/2011.06225)
+- [Bayesian neural networks: An introduction and survey](https://arxiv.org/abs/2006.12024)
