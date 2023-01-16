@@ -21,6 +21,8 @@ in Bayesian Deep Neural Networks. HMC is considered the gold standard in approxi
 - [[Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj0jMP75sv8AhXWT6QEHeaLBxkQFnoECCkQAQ&url=https%3A%2F%2Fproceedings.neurips.cc%2Fpaper%2F2017%2Ffile%2F9ef2ed4b7fd2c810847ffa5fa85bce38-Paper.pdf&usg=AOvVaw1zcxDvvpYRZlrPzKo7zzZO)]: This paper implements deep neural network ensembles. 
 This is a Frequentist alternative to Bayesian Neural Networks. It is one of the most common baselines for Bayesian Neural Networks, and frequently outperforms them.
 
+- [[The Bayesian Learning Rule](https://arxiv.org/abs/2107.04562)]: Many machine-learning algorithms are specific instances of a single algorithm called the Bayesian learning rule. The rule, derived from Bayesian principles, yields a wide-range of algorithms from fields such as optimization, deep learning, and graphical models. 
+
 ## Approximate Inference
 ### Variational Inference 
 ++ Computationally efficient --Explores a single mode of the loss
