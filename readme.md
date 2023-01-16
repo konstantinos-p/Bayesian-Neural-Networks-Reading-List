@@ -82,6 +82,7 @@ PAC-Bayes bounds give high-probability guarantees on out-of-sample performance.
 - [PAC-Bayesian theory meets Bayesian inference.](https://arxiv.org/abs/1605.08636)
 - [PAC-Bayes Compression Bounds So Tight That They Can Explain Generalization.](https://arxiv.org/abs/2211.13609)
 - [Non-Vacuous Generalization Bounds at the ImageNet Scale: A PAC-Bayesian Compression Approach.](https://arxiv.org/abs/1804.05862)
+- [Sharpness-Aware Minimization for Efficiently Improving Generalization.](https://arxiv.org/abs/2010.01412)
 
 ## Benchmarking
 
