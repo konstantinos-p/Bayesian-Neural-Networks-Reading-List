@@ -95,6 +95,8 @@ PAC-Bayes bounds give high-probability guarantees on out-of-sample performance.
 - [Thresholded Adaptive Calibration Error (TACE).](https://arxiv.org/abs/1904.01685)
 - [Pitfalls of in-domain uncertainty
 estimation and ensembling in deep learning. ](https://arxiv.org/abs/2002.06470)
+- [A New Vector Partition of the Probability Score (Brier score and its decompositions)]
+- (https://journals.ametsoc.org/view/journals/apme/12/4/1520-0450_1973_012_0595_anvpot_2_0_co_2.xml#container-56956-item-56959)
 
 ## Review papers
 - [Hands-on Bayesian Neural Networks--a Tutorial for Deep Learning Users.](https://arxiv.org/abs/2007.06823)
