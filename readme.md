@@ -1,6 +1,6 @@
 # Bayesian Neural Networks Reading List
 
-This is a reading list for Bayesian neural networks. While Bayesian Neural Networks are used for a variety of tasks, and in a variety of contexts, this reading list focuses on the task of uncertainty estimation. I first include a list of essential papers, and then organize papers by subject. The aim is to create a guide for new researchers in Bayesian Deep Learning, that will speed up their entry to the field.
+This is a reading list on Bayesian neural networks. The list is quite opinionated in focusing mainly on the case where priors and posteriors are defined over the neural network weights, and the predictive task is classification. In this setting, Bayesian neural networks might be preferable because they either improve test accuracy, test calibration or both. I first include a list of essential papers, and then organize papers by subject. The aim is to create a guide for new researchers in Bayesian Deep Learning, that will speed up their entry to the field.
 
 ## Essential reads
 
@@ -23,7 +23,7 @@ This is a Frequentist alternative to Bayesian Neural Networks. It is one of the 
 
 - [[The Bayesian Learning Rule](https://arxiv.org/abs/2107.04562)]: Many machine-learning algorithms are specific instances of a single algorithm called the Bayesian learning rule. The rule, derived from Bayesian principles, yields a wide-range of algorithms from fields such as optimization, deep learning, and graphical models. 
 
-## Cool recent reads
+## Interesting recent reads!
 - [SAM as an Optimal Relaxation of Bayes](https://openreview.net/pdf?id=k4fevFqSQcX)
 - [Robustness to corruption in pre-trained Bayesian neural networks](https://openreview.net/pdf?id=kUI41mY8bHl)
 - [Beyond Deep Ensembles: A Large-Scale Evaluation of Bayesian Deep Learning under Distribution Shift](https://arxiv.org/pdf/2306.12306)
@@ -69,6 +69,20 @@ linearization. ](https://scholar.google.com/scholar_url?url=https://proceedings.
 - [Cyclical Stochastic Gradient MCMC for Bayesian Deep Learning.](https://arxiv.org/abs/1902.03932)
 - [Bayesian learning via stochastic gradient Langevin dynamics.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiB_Pqj78v8AhWQVKQEHXspC9YQFnoECAsQAQ&url=https%3A%2F%2Fwww.stats.ox.ac.uk%2F~teh%2Fresearch%2Fcompstats%2FWelTeh2011a.pdf&usg=AOvVaw2Eomq_YCJE9-E1E8x33fsM)
 - [A complete recipe for stochastic gradient MCMC.](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjn_Lrh78v8AhXhVKQEHZGoBDsQFnoECAsQAQ&url=http%3A%2F%2Fpapers.neurips.cc%2Fpaper%2F5891-a-complete-recipe-for-stochastic-gradient-mcmc.pdf&usg=AOvVaw1_xxogcCifNSVbrKX3W283)
+
+### Deep Ensembles
+++ Explore multiple modes, Computationally competitive --Memory expensive
+
+- [Simple and Scalable Predictive Uncertainty Estimation using Deep Ensembles](https://arxiv.org/pdf/1612.01474.pdf)
+- [Multi-Symmetry Ensembles: Improving Diversity and Generalization via Opposing Symmetries](https://arxiv.org/pdf/2303.02484.pdf)
+- [Hyperparameter Ensembles](https://arxiv.org/pdf/2006.13570.pdf)
+- [Agree to Disagree: Diversity through Disagreement for Better Transferability](https://openreview.net/pdf?id=K7CbYQbyYhY)
+- [Feature Space Particle Inference for Neural Network Ensembles](https://proceedings.mlr.press/v162/yashima22a/yashima22a.pdf)
+- [Deep Ensembles: A Loss Landscape Perspective](https://arxiv.org/pdf/1912.02757.pdf)
+- [DICE: Diversity in Deep Ensembles via Conditional Redundancy Adversarial Estimation](https://arxiv.org/pdf/2101.05544)
+- [Deep Ensembles Work, But Are They Necessary?](https://arxiv.org/pdf/2202.06985.pdf)
+- [Combining Diverse Feature Priors](https://arxiv.org/pdf/2110.08220.pdf)
+
 ## Performance Certificates
 
 ### Marginal Likelihood
