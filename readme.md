@@ -23,6 +23,14 @@ This is a Frequentist alternative to Bayesian Neural Networks. It is one of the 
 
 - [[The Bayesian Learning Rule](https://arxiv.org/abs/2107.04562)]: Many machine-learning algorithms are specific instances of a single algorithm called the Bayesian learning rule. The rule, derived from Bayesian principles, yields a wide-range of algorithms from fields such as optimization, deep learning, and graphical models. 
 
+## Cool recent reads
+- [SAM as an Optimal Relaxation of Bayes](https://openreview.net/pdf?id=k4fevFqSQcX)
+- [Robustness to corruption in pre-trained Bayesian neural networks](https://openreview.net/pdf?id=kUI41mY8bHl)
+- [Beyond Deep Ensembles: A Large-Scale Evaluation of Bayesian Deep Learning under Distribution Shift](https://arxiv.org/pdf/2306.12306)
+- [Collapsed Inference for Bayesian Deep Learning](https://arxiv.org/pdf/2306.09686.pdf)
+- [The Memory Perturbation Equation: Understanding Model's Sensitivity to Data](https://arxiv.org/pdf/2310.19273)
+- [Learning Layer-wise Equivariances Automatically using Gradients](https://arxiv.org/pdf/2310.06131)
+
 ## Approximate Inference
 ### Variational Inference 
 ++ Computationally efficient --Explores a single mode of the loss
