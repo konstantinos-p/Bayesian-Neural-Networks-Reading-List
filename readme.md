@@ -113,11 +113,14 @@ PAC-Bayes bounds give high-probability Frequentist guarantees on out-of-sample p
 - [Sharpness-Aware Minimization for Efficiently Improving Generalization.](https://arxiv.org/abs/2010.01412)
 
 ## Benchmarking
+Bayesian Neural Networks aim to improve test accuracy and more commonly *test calibration*. While Bayesian Neural Networks are often
+tested on standard computer vision datasets such as CIFAR10/100 with test accuracy as the test metric, dedicated datasets and metrics can also be used.
 
 ### Datasets
 - [Benchmarking bayesian deep learning on diabetic retinopathy detection tasks.](https://arxiv.org/abs/2211.12717)
 - [Can you trust your model's uncertainty? Evaluating predictive uncertainty under dataset shift.](https://arxiv.org/abs/1906.02530)
 - [Uncertainty Baselines: Benchmarks for uncertainty & robustness in deep learning.](https://arxiv.org/abs/2106.04015)
+- [WILDS: A Benchmark of in-the-Wild Distribution Shifts](https://wilds.stanford.edu/)
 ### Metrics
 - [Expected Calibration Error (ECE).](https://www.jstor.org/stable/2987588)
 - [Thresholded Adaptive Calibration Error (TACE).](https://arxiv.org/abs/1904.01685)
