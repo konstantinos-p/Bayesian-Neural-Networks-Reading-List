@@ -1,8 +1,10 @@
 # Bayesian Neural Networks Reading List
 
-This is a reading list on Bayesian neural networks. The list is quite opinionated in focusing mainly on the case where priors and posteriors are defined over the neural network weights, and the predictive task is classification. In this setting, Bayesian neural networks might be preferable because they either improve test accuracy, test calibration or both. I first include a list of essential papers, and then organize papers by subject. The aim is to create a guide for new researchers in Bayesian Deep Learning, that will speed up their entry to the field. Interested in a more detailed discussion? Check out our recent review paper ["A Primer on Bayesian Neural Networks: Review and Debates"](https://arxiv.org/abs/2309.16314) joint work with [Julyan Arbel (Inria Grenoble Rhône-Alpes)](https://www.julyanarbel.com/), [Mariia Vladimirova (Criteo)](https://sites.google.com/site/mrvladimirova/home), [Vincent Fortuin (Helmholtz AI)](https://fortuin.github.io/).
+This is a reading list on Bayesian neural networks. The list is quite opinionated in focusing mainly on the case where priors and posteriors are defined over the neural network weights, and the predictive task is classification. In this setting, Bayesian neural networks might be preferable because they either improve test accuracy, test calibration or both. I first include a list of essential papers, and then organize papers by subject. The aim is to create a guide for new researchers in Bayesian Deep Learning, that will speed up their entry to the field. 
 
-## Essential reads
+Interested in a more detailed discussion? Check out our recent review paper 🚨["A Primer on Bayesian Neural Networks: Review and Debates"](https://arxiv.org/abs/2309.16314) joint work with [Julyan Arbel (Inria Grenoble Rhône-Alpes)](https://www.julyanarbel.com/), [Mariia Vladimirova (Criteo)](https://sites.google.com/site/mrvladimirova/home), [Vincent Fortuin (Helmholtz AI)](https://fortuin.github.io/)🚨.
+
+## ⚠️ Essential reads
 
 
 
@@ -23,7 +25,7 @@ This is a Frequentist alternative to Bayesian Neural Networks. It is one of the 
 
 - [[The Bayesian Learning Rule](https://arxiv.org/abs/2107.04562)]: Many machine-learning algorithms are specific instances of a single algorithm called the Bayesian learning rule. The rule, derived from Bayesian principles, yields a wide-range of algorithms from fields such as optimization, deep learning, and graphical models. 
 
-## Interesting recent reads!
+## 🔥 Interesting recent reads!
 - [SAM as an Optimal Relaxation of Bayes](https://openreview.net/pdf?id=k4fevFqSQcX)
 - [Robustness to corruption in pre-trained Bayesian neural networks](https://openreview.net/pdf?id=kUI41mY8bHl)
 - [Beyond Deep Ensembles: A Large-Scale Evaluation of Bayesian Deep Learning under Distribution Shift](https://arxiv.org/pdf/2306.12306)
@@ -32,6 +34,8 @@ This is a Frequentist alternative to Bayesian Neural Networks. It is one of the 
 - [Learning Layer-wise Equivariances Automatically using Gradients](https://arxiv.org/pdf/2310.06131)
 
 ## Approximate Inference
+The Bayesian paradigm consists of choosing a prior over the model parameters, evaluating the data likelihood and the estimating the posterior over the model parameters. This can be done analytically only in simple cases (Gaussian likelihood, prior and posterior). For more complex and interesting cases we have to resort to approximate inference.
+
 ### Variational Inference 
 ++ Computationally efficient --Explores a single mode of the loss
 
@@ -84,9 +88,11 @@ linearization. ](https://scholar.google.com/scholar_url?url=https://proceedings.
 - [Combining Diverse Feature Priors](https://arxiv.org/pdf/2110.08220.pdf)
 
 ## Performance Certificates
+Bayesian neural networks are compatible with two approaches to model selection that eschew validation and test sets and can (in principle) give guarantees on out-of-sample
+performance simply by using the training set.
 
 ### Marginal Likelihood
-The marginal likelihood can be used for model selection.
+The marginal likelihood is a purely Bayesian approach to model selection.
 
 - [Scalable marginal
 likelihood estimation for model selection in deep learning](https://arxiv.org/abs/2104.04975)
@@ -97,7 +103,7 @@ speed and model selection.](https://arxiv.org/abs/2010.14499)
 - [Speedy performance
 estimation for neural architecture search.](https://arxiv.org/abs/2006.04492)
 ### PAC-Bayes
-PAC-Bayes bounds give high-probability guarantees on out-of-sample performance.
+PAC-Bayes bounds give high-probability Frequentist guarantees on out-of-sample performance.
 
 - [Computing nonvacuous generalization bounds for deep (stochastic) neural networks with many more parameters than training data.](https://arxiv.org/abs/1703.11008)
 - [On the role of data in PAC-Bayes bounds.](https://arxiv.org/abs/2006.10929)
