@@ -129,3 +129,22 @@ estimation and ensembling in deep learning. ](https://arxiv.org/abs/2002.06470)
 - [Hands-on Bayesian Neural Networks--a Tutorial for Deep Learning Users.](https://arxiv.org/abs/2007.06823)
 - [A review of uncertainty quantification in deep learning: Techniques, applications and challenges.](https://arxiv.org/abs/2011.06225)
 - [Bayesian neural networks: An introduction and survey](https://arxiv.org/abs/2006.12024)
+
+<h2> :memo: Citation </h2>
+
+Did you find this reading list helpful? Consider citing our review paper on your scientific publications using the following **BibTeX** citation:
+
+```bibtex
+@article{arbel2023primer,
+  title={A Primer on Bayesian Neural Networks: Review and Debates},
+  author={Arbel, Julyan and Pitas, Konstantinos and Vladimirova, Mariia and Fortuin, Vincent},
+  journal={arXiv preprint arXiv:2309.16314},
+  year={2023}
+}
+```
+
+When citing this repository on any other medium, please use the following citation:
+
+```
+A Primer on Bayesian Neural Networks: Review and Debates by Julyan Arbel, Konstantinos Pitas, Mariia Vladimirova and Vincent Fortuin
+```
